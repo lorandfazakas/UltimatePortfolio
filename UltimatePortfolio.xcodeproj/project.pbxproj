@@ -16,6 +16,8 @@
 		09AB7F1826AD4A1200590232 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F1726AD4A1200590232 /* EditItemView.swift */; };
 		09AB7F1A26AD4EBF00590232 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F1926AD4EBF00590232 /* ItemRowView.swift */; };
 		09AB7F1C26AD68F200590232 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F1B26AD68F200590232 /* Binding-OnChange.swift */; };
+		09AB7F1E26AD84C600590232 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F1D26AD84C600590232 /* ProjectHeaderView.swift */; };
+		09AB7F2026AD8B6000590232 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB7F1F26AD8B6000590232 /* Colors.xcassets */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -36,6 +38,8 @@
 		09AB7F1726AD4A1200590232 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		09AB7F1926AD4EBF00590232 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		09AB7F1B26AD68F200590232 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		09AB7F1D26AD84C600590232 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		09AB7F1F26AD8B6000590232 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				0994D45626A5ACD3003E2014 /* UltimatePortfolio.entitlements */,
 				0994D43F26A59BFD003E2014 /* UltimatePortfolioApp.swift */,
 				0994D44126A59BFD003E2014 /* ContentView.swift */,
+				09AB7F1D26AD84C600590232 /* ProjectHeaderView.swift */,
 				09AB7F1726AD4A1200590232 /* EditItemView.swift */,
 				09AB7F1B26AD68F200590232 /* Binding-OnChange.swift */,
 				09ED86A726AC55E6003012E2 /* Item-CoreDataHelpers.swift */,
@@ -88,6 +93,7 @@
 				0994D45326A5A491003E2014 /* DataController.swift */,
 				0994D44F26A5A1CA003E2014 /* Main.xcdatamodeld */,
 				0994D44326A59BFF003E2014 /* Assets.xcassets */,
+				09AB7F1F26AD8B6000590232 /* Colors.xcassets */,
 				0994D44826A59BFF003E2014 /* Info.plist */,
 				0994D44526A59BFF003E2014 /* Preview Content */,
 			);
@@ -167,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB7F2026AD8B6000590232 /* Colors.xcassets in Resources */,
 				0994D44726A59BFF003E2014 /* Preview Assets.xcassets in Resources */,
 				0994D44426A59BFF003E2014 /* Assets.xcassets in Resources */,
 			);
@@ -180,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */,
+				09AB7F1E26AD84C600590232 /* ProjectHeaderView.swift in Sources */,
 				0994D45126A5A1CA003E2014 /* Main.xcdatamodeld in Sources */,
 				09ED86AB26AC57BA003012E2 /* Project-CoreDataHelpers.swift in Sources */,
 				0994D45426A5A491003E2014 /* DataController.swift in Sources */,
