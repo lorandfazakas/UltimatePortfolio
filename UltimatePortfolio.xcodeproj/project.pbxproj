@@ -22,10 +22,12 @@
 		09AB7F2426AEFBB300590232 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F2326AEFBB300590232 /* Sequence-Sorting.swift */; };
 		09AB7F2626AFBBD400590232 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F2526AFBBD400590232 /* SelectSomethingView.swift */; };
 		09AB7F2826AFCB8000590232 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F2726AFCB8000590232 /* Bundle-Decodable.swift */; };
-		09AB7F2A26AFD0D500590232 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 09AB7F2926AFD0D500590232 /* Awards.json */; };
 		09AB7F2C26AFD17A00590232 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F2B26AFD17A00590232 /* Award.swift */; };
 		09AB7F2E26AFD20F00590232 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F2D26AFD20F00590232 /* AwardsView.swift */; };
 		09AB7F3026B1AD1A00590232 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F2F26B1AD1A00590232 /* Color-Additions.swift */; };
+		09AB7F3526B2EB6000590232 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09AB7F3726B2EB6000590232 /* Localizable.strings */; };
+		09AB7F3926B2EBE200590232 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 09AB7F3B26B2EBE200590232 /* Localizable.stringsdict */; };
+		09AB7F3D26B2EED900590232 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 09AB7F3F26B2EED900590232 /* Awards.json */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -52,10 +54,15 @@
 		09AB7F2326AEFBB300590232 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		09AB7F2526AFBBD400590232 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		09AB7F2726AFCB8000590232 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		09AB7F2926AFD0D500590232 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		09AB7F2B26AFD17A00590232 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		09AB7F2D26AFD20F00590232 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		09AB7F2F26B1AD1A00590232 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
+		09AB7F3626B2EB6000590232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		09AB7F3826B2EB6D00590232 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		09AB7F3A26B2EBE200590232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		09AB7F3C26B2EBEA00590232 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		09AB7F3E26B2EED900590232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
+		09AB7F4026B2EEDF00590232 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -115,7 +122,9 @@
 				09AB7F1926AD4EBF00590232 /* ItemRowView.swift */,
 				0994D45326A5A491003E2014 /* DataController.swift */,
 				0994D44F26A5A1CA003E2014 /* Main.xcdatamodeld */,
-				09AB7F2926AFD0D500590232 /* Awards.json */,
+				09AB7F3F26B2EED900590232 /* Awards.json */,
+				09AB7F3726B2EB6000590232 /* Localizable.strings */,
+				09AB7F3B26B2EBE200590232 /* Localizable.stringsdict */,
 				0994D44326A59BFF003E2014 /* Assets.xcassets */,
 				09AB7F1F26AD8B6000590232 /* Colors.xcassets */,
 				0994D44826A59BFF003E2014 /* Info.plist */,
@@ -181,6 +190,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hu,
 			);
 			mainGroup = 0994D43326A59BFD003E2014;
 			productRefGroup = 0994D43D26A59BFD003E2014 /* Products */;
@@ -197,10 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB7F3526B2EB6000590232 /* Localizable.strings in Resources */,
 				09AB7F2026AD8B6000590232 /* Colors.xcassets in Resources */,
-				09AB7F2A26AFD0D500590232 /* Awards.json in Resources */,
+				09AB7F3D26B2EED900590232 /* Awards.json in Resources */,
 				0994D44726A59BFF003E2014 /* Preview Assets.xcassets in Resources */,
 				0994D44426A59BFF003E2014 /* Assets.xcassets in Resources */,
+				09AB7F3926B2EBE200590232 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +246,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09AB7F3726B2EB6000590232 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AB7F3626B2EB6000590232 /* en */,
+				09AB7F3826B2EB6D00590232 /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		09AB7F3B26B2EBE200590232 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AB7F3A26B2EBE200590232 /* en */,
+				09AB7F3C26B2EBEA00590232 /* hu */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		09AB7F3F26B2EED900590232 /* Awards.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AB7F3E26B2EED900590232 /* en */,
+				09AB7F4026B2EEDF00590232 /* hu */,
+			);
+			name = Awards.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0994D44926A59BFF003E2014 /* Debug */ = {

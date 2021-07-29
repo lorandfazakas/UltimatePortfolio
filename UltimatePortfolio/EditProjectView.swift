@@ -58,8 +58,8 @@ struct EditProjectView: View {
                 .padding(.vertical)
             }
             
-            Section(footer: Text("Closing a project moves it from the Open to Closed tab; deleting it removes the project entirely.")) {
-                Button(project.closed ? "Reopen this project" : "Close the project") {
+            Section(footer: Text("Closing a project moves it from the Open to Closed tab; deleting it removes the project completely.")) {
+                Button(project.closed ? "Reopen this project" : "Close this project") {
                     project.closed.toggle()
                     update()
                 }
@@ -73,7 +73,7 @@ struct EditProjectView: View {
         .navigationTitle("Edit Project")
         .onDisappear(perform: dataController.save)
         .alert(isPresented: $showingDeleteConfirm) {
-            Alert(title: Text("Delete project?"), message: Text("Are you sure you want to dele this project? You will also delete all the items it contains."), primaryButton: .default(Text("Delete"), action: delete), secondaryButton: .cancel())
+            Alert(title: Text("Delete project?"), message: Text("Are you sure you want to delete this project? You will also delete all the items it contains."), primaryButton: .default(Text("Delete"), action: delete), secondaryButton: .cancel())
         }
     }
     
