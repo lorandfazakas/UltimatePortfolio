@@ -106,34 +106,15 @@
 		0994D43E26A59BFD003E2014 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				0994D45626A5ACD3003E2014 /* UltimatePortfolio.entitlements */,
+				09AB7F4926B52BAF00590232 /* Activities */,
+				09AB7F4826B52ABA00590232 /* Extensions */,
+				09AB7F4726B52AAE00590232 /* Localization */,
+				09AB7F4626B52AA000590232 /* Configuration */,
 				0994D43F26A59BFD003E2014 /* UltimatePortfolioApp.swift */,
 				0994D44126A59BFD003E2014 /* ContentView.swift */,
-				09AB7F1D26AD84C600590232 /* ProjectHeaderView.swift */,
-				09AB7F1726AD4A1200590232 /* EditItemView.swift */,
-				09AB7F2726AFCB8000590232 /* Bundle-Decodable.swift */,
-				09AB7F2B26AFD17A00590232 /* Award.swift */,
-				09AB7F2D26AFD20F00590232 /* AwardsView.swift */,
-				09AB7F1B26AD68F200590232 /* Binding-OnChange.swift */,
-				09AB7F2126AD9A7700590232 /* EditProjectView.swift */,
-				09AB7F2526AFBBD400590232 /* SelectSomethingView.swift */,
-				09AB7F2326AEFBB300590232 /* Sequence-Sorting.swift */,
-				09ED86A726AC55E6003012E2 /* Item-CoreDataHelpers.swift */,
-				09ED86AA26AC57BA003012E2 /* Project-CoreDataHelpers.swift */,
-				09ED86A026AC28FB003012E2 /* HomeView.swift */,
-				09AB7F4126B3B98900590232 /* ItemListView.swift */,
-				09AB7F4326B3BA2600590232 /* ProjectSummaryView.swift */,
-				09AB7F2F26B1AD1A00590232 /* Color-Additions.swift */,
-				09ED86A426AC297C003012E2 /* ProjectsView.swift */,
-				09AB7F1926AD4EBF00590232 /* ItemRowView.swift */,
 				0994D45326A5A491003E2014 /* DataController.swift */,
-				0994D44F26A5A1CA003E2014 /* Main.xcdatamodeld */,
-				09AB7F3F26B2EED900590232 /* Awards.json */,
-				09AB7F3726B2EB6000590232 /* Localizable.strings */,
-				09AB7F3B26B2EBE200590232 /* Localizable.stringsdict */,
 				0994D44326A59BFF003E2014 /* Assets.xcassets */,
 				09AB7F1F26AD8B6000590232 /* Colors.xcassets */,
-				0994D44826A59BFF003E2014 /* Info.plist */,
 				0994D44526A59BFF003E2014 /* Preview Content */,
 			);
 			path = UltimatePortfolio;
@@ -145,6 +126,81 @@
 				0994D44626A59BFF003E2014 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09AB7F4626B52AA000590232 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0994D45626A5ACD3003E2014 /* UltimatePortfolio.entitlements */,
+				0994D44826A59BFF003E2014 /* Info.plist */,
+				0994D44F26A5A1CA003E2014 /* Main.xcdatamodeld */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		09AB7F4726B52AAE00590232 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				09AB7F3726B2EB6000590232 /* Localizable.strings */,
+				09AB7F3B26B2EBE200590232 /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		09AB7F4826B52ABA00590232 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09ED86A726AC55E6003012E2 /* Item-CoreDataHelpers.swift */,
+				09ED86AA26AC57BA003012E2 /* Project-CoreDataHelpers.swift */,
+				09AB7F2726AFCB8000590232 /* Bundle-Decodable.swift */,
+				09AB7F1B26AD68F200590232 /* Binding-OnChange.swift */,
+				09AB7F2326AEFBB300590232 /* Sequence-Sorting.swift */,
+				09AB7F2F26B1AD1A00590232 /* Color-Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09AB7F4926B52BAF00590232 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				09AB7F4A26B52BC000590232 /* Home */,
+				09AB7F4B26B52BCB00590232 /* Projects */,
+				09AB7F4C26B52BD500590232 /* Awards */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		09AB7F4A26B52BC000590232 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				09ED86A026AC28FB003012E2 /* HomeView.swift */,
+				09AB7F4126B3B98900590232 /* ItemListView.swift */,
+				09AB7F4326B3BA2600590232 /* ProjectSummaryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09AB7F4B26B52BCB00590232 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				09ED86A426AC297C003012E2 /* ProjectsView.swift */,
+				09AB7F1D26AD84C600590232 /* ProjectHeaderView.swift */,
+				09AB7F1926AD4EBF00590232 /* ItemRowView.swift */,
+				09AB7F1726AD4A1200590232 /* EditItemView.swift */,
+				09AB7F2126AD9A7700590232 /* EditProjectView.swift */,
+				09AB7F2526AFBBD400590232 /* SelectSomethingView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		09AB7F4C26B52BD500590232 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				09AB7F2B26AFD17A00590232 /* Award.swift */,
+				09AB7F2D26AFD20F00590232 /* AwardsView.swift */,
+				09AB7F3F26B2EED900590232 /* Awards.json */,
+			);
+			path = Awards;
 			sourceTree = "<group>";
 		};
 		09ED869D26AA7E31003012E2 /* Frameworks */ = {
@@ -429,12 +485,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = X2BSKHVUZ5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,12 +508,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = X2BSKHVUZ5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
