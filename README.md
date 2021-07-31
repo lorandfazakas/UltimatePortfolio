@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://developer.apple.com/swift/images/swift-logo.svg" alt="Swift logo" width="614" maxHeight="171" />
+    <img src="https://developer.apple.com/swift/images/swift-logo.svg" alt="Swift logo" width="614" maxHeight="140" />
 </p>
 
 <p align="center">
