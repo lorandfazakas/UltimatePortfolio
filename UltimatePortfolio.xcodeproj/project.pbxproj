@@ -41,6 +41,7 @@
 		09AB7F6B26BA4A9500590232 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F6A26BA4A9500590232 /* PerformanceTests.swift */; };
 		09AB7F7326BBEB1900590232 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F7226BBEB1900590232 /* UltimatePortfolioUITests.swift */; };
 		09AB7F7B26BC28C100590232 /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F7A26BC28C100590232 /* ProjectsViewModel.swift */; };
+		09AB7F7D26BC559400590232 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7F7C26BC559400590232 /* HomeViewModel.swift */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -110,6 +111,7 @@
 		09AB7F7226BBEB1900590232 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		09AB7F7426BBEB1900590232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09AB7F7A26BC28C100590232 /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		09AB7F7C26BC559400590232 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				09ED86A026AC28FB003012E2 /* HomeView.swift */,
+				09AB7F7C26BC559400590232 /* HomeViewModel.swift */,
 				09AB7F4126B3B98900590232 /* ItemListView.swift */,
 				09AB7F4326B3BA2600590232 /* ProjectSummaryView.swift */,
 			);
@@ -470,6 +473,7 @@
 				09AB7F1E26AD84C600590232 /* ProjectHeaderView.swift in Sources */,
 				09AB7F2E26AFD20F00590232 /* AwardsView.swift in Sources */,
 				0994D45126A5A1CA003E2014 /* Main.xcdatamodeld in Sources */,
+				09AB7F7D26BC559400590232 /* HomeViewModel.swift in Sources */,
 				09ED86AB26AC57BA003012E2 /* Project-CoreDataHelpers.swift in Sources */,
 				09AB7F3026B1AD1A00590232 /* Color-Additions.swift in Sources */,
 				09AB7F2226AD9A7700590232 /* EditProjectView.swift in Sources */,
