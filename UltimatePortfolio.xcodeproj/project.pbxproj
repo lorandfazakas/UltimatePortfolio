@@ -55,6 +55,12 @@
 		09AB7FB626C0335B00590232 /* PortfolioWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FB526C0335B00590232 /* PortfolioWidget.swift */; };
 		09AB7FB826C0335E00590232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB7FB726C0335E00590232 /* Assets.xcassets */; };
 		09AB7FBC26C0335F00590232 /* PortfolioWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 09AB7FAF26C0335B00590232 /* PortfolioWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09AB7FC126C034F500590232 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0994D44F26A5A1CA003E2014 /* Main.xcdatamodeld */; };
+		09AB7FC226C0350B00590232 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A726AC55E6003012E2 /* Item-CoreDataHelpers.swift */; };
+		09AB7FC326C0351800590232 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994D45326A5A491003E2014 /* DataController.swift */; };
+		09AB7FC526C035E900590232 /* DataController-Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FC426C035E900590232 /* DataController-Reminders.swift */; };
+		09AB7FC726C042D500590232 /* DataController-Awards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FC626C042D500590232 /* DataController-Awards.swift */; };
+		09AB7FC926C0438B00590232 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FC826C0438B00590232 /* DataController-StoreKit.swift */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -161,6 +167,10 @@
 		09AB7FB526C0335B00590232 /* PortfolioWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioWidget.swift; sourceTree = "<group>"; };
 		09AB7FB726C0335E00590232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09AB7FB926C0335E00590232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AB7FC426C035E900590232 /* DataController-Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-Reminders.swift"; sourceTree = "<group>"; };
+		09AB7FC626C042D500590232 /* DataController-Awards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-Awards.swift"; sourceTree = "<group>"; };
+		09AB7FC826C0438B00590232 /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-StoreKit.swift"; sourceTree = "<group>"; };
+		09AB7FCA26C044F900590232 /* PortfolioWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortfolioWidgetExtension.entitlements; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -206,6 +216,7 @@
 		0994D43326A59BFD003E2014 = {
 			isa = PBXGroup;
 			children = (
+				09AB7FCA26C044F900590232 /* PortfolioWidgetExtension.entitlements */,
 				0994D43E26A59BFD003E2014 /* UltimatePortfolio */,
 				09AB7F5226B685BB00590232 /* UltimatePortfolioTests */,
 				09AB7F7126BBEB1900590232 /* UltimatePortfolioUITests */,
@@ -238,6 +249,9 @@
 				09AB7FA926BFF17D00590232 /* SceneDelegate.swift */,
 				0994D44126A59BFD003E2014 /* ContentView.swift */,
 				0994D45326A5A491003E2014 /* DataController.swift */,
+				09AB7FC426C035E900590232 /* DataController-Reminders.swift */,
+				09AB7FC826C0438B00590232 /* DataController-StoreKit.swift */,
+				09AB7FC626C042D500590232 /* DataController-Awards.swift */,
 				0994D44326A59BFF003E2014 /* Assets.xcassets */,
 				09AB7F1F26AD8B6000590232 /* Colors.xcassets */,
 				0994D44526A59BFF003E2014 /* Preview Content */,
@@ -591,16 +605,19 @@
 				09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */,
 				09AB7F4426B3BA2600590232 /* ProjectSummaryView.swift in Sources */,
 				09AB7FAA26BFF17D00590232 /* SceneDelegate.swift in Sources */,
+				09AB7FC726C042D500590232 /* DataController-Awards.swift in Sources */,
 				09AB7F8626BDB28200590232 /* PurchaseButton.swift in Sources */,
 				09AB7F1E26AD84C600590232 /* ProjectHeaderView.swift in Sources */,
 				09AB7F8826BDB37A00590232 /* ProductView.swift in Sources */,
 				09AB7F2E26AFD20F00590232 /* AwardsView.swift in Sources */,
 				0994D45126A5A1CA003E2014 /* Main.xcdatamodeld in Sources */,
 				09AB7F7D26BC559400590232 /* HomeViewModel.swift in Sources */,
+				09AB7FC926C0438B00590232 /* DataController-StoreKit.swift in Sources */,
 				09AB7F8126BD5BF000590232 /* UnlockManager.swift in Sources */,
 				09ED86AB26AC57BA003012E2 /* Project-CoreDataHelpers.swift in Sources */,
 				09AB7F3026B1AD1A00590232 /* Color-Additions.swift in Sources */,
 				09AB7F2226AD9A7700590232 /* EditProjectView.swift in Sources */,
+				09AB7FC526C035E900590232 /* DataController-Reminders.swift in Sources */,
 				0994D45426A5A491003E2014 /* DataController.swift in Sources */,
 				09AB7F2626AFBBD400590232 /* SelectSomethingView.swift in Sources */,
 				09AB7F2C26AFD17A00590232 /* Award.swift in Sources */,
@@ -648,7 +665,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB7FC126C034F500590232 /* Main.xcdatamodeld in Sources */,
+				09AB7FC326C0351800590232 /* DataController.swift in Sources */,
 				09AB7FB626C0335B00590232 /* PortfolioWidget.swift in Sources */,
+				09AB7FC226C0350B00590232 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,6 +972,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PortfolioWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2BSKHVUZ5;
 				INFOPLIST_FILE = PortfolioWidget/Info.plist;
@@ -974,6 +995,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PortfolioWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2BSKHVUZ5;
 				INFOPLIST_FILE = PortfolioWidget/Info.plist;
