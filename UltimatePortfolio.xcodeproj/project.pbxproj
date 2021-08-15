@@ -68,6 +68,11 @@
 		09AB7FD026C1205A00590232 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FCF26C1205A00590232 /* DataProvider.swift */; };
 		09AB7FD226C1209E00590232 /* SimpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FD126C1209E00590232 /* SimpleWidget.swift */; };
 		09AB7FD426C120DB00590232 /* ComplexWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB7FD326C120DB00590232 /* ComplexWidget.swift */; };
+		09C2907426C80AD7006F1AA8 /* SharedProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907326C80AD6006F1AA8 /* SharedProject.swift */; };
+		09C2907626C80B1F006F1AA8 /* SharedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907526C80B1F006F1AA8 /* SharedItem.swift */; };
+		09C2907826C80BD4006F1AA8 /* LoadStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907726C80BD4006F1AA8 /* LoadStates.swift */; };
+		09C2907B26C8167D006F1AA8 /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */; };
+		09C2907D26C81C32006F1AA8 /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -181,6 +186,11 @@
 		09AB7FCF26C1205A00590232 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		09AB7FD126C1209E00590232 /* SimpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidget.swift; sourceTree = "<group>"; };
 		09AB7FD326C120DB00590232 /* ComplexWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexWidget.swift; sourceTree = "<group>"; };
+		09C2907326C80AD6006F1AA8 /* SharedProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProject.swift; sourceTree = "<group>"; };
+		09C2907526C80B1F006F1AA8 /* SharedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItem.swift; sourceTree = "<group>"; };
+		09C2907726C80BD4006F1AA8 /* LoadStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStates.swift; sourceTree = "<group>"; };
+		09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
+		09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -318,6 +328,7 @@
 				09AB7F4B26B52BCB00590232 /* Projects */,
 				09AB7F4C26B52BD500590232 /* Awards */,
 				09AB7F8B26BDB84500590232 /* Unlock */,
+				09C2907926C80C0E006F1AA8 /* Community */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -414,6 +425,18 @@
 				09AB7FB926C0335E00590232 /* Info.plist */,
 			);
 			path = PortfolioWidget;
+			sourceTree = "<group>";
+		};
+		09C2907926C80C0E006F1AA8 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				09C2907326C80AD6006F1AA8 /* SharedProject.swift */,
+				09C2907526C80B1F006F1AA8 /* SharedItem.swift */,
+				09C2907726C80BD4006F1AA8 /* LoadStates.swift */,
+				09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */,
+				09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */,
+			);
+			path = Community;
 			sourceTree = "<group>";
 		};
 		09ED869D26AA7E31003012E2 /* Frameworks */ = {
@@ -622,8 +645,11 @@
 				09AB7FAA26BFF17D00590232 /* SceneDelegate.swift in Sources */,
 				09AB7FC726C042D500590232 /* DataController-Awards.swift in Sources */,
 				09AB7F8626BDB28200590232 /* PurchaseButton.swift in Sources */,
+				09C2907626C80B1F006F1AA8 /* SharedItem.swift in Sources */,
 				09AB7F1E26AD84C600590232 /* ProjectHeaderView.swift in Sources */,
 				09AB7F8826BDB37A00590232 /* ProductView.swift in Sources */,
+				09C2907826C80BD4006F1AA8 /* LoadStates.swift in Sources */,
+				09C2907B26C8167D006F1AA8 /* SharedProjectsView.swift in Sources */,
 				09AB7F2E26AFD20F00590232 /* AwardsView.swift in Sources */,
 				0994D45126A5A1CA003E2014 /* Main.xcdatamodeld in Sources */,
 				09AB7F7D26BC559400590232 /* HomeViewModel.swift in Sources */,
@@ -632,7 +658,9 @@
 				09ED86AB26AC57BA003012E2 /* Project-CoreDataHelpers.swift in Sources */,
 				09AB7F3026B1AD1A00590232 /* Color-Additions.swift in Sources */,
 				09AB7F2226AD9A7700590232 /* EditProjectView.swift in Sources */,
+				09C2907426C80AD7006F1AA8 /* SharedProject.swift in Sources */,
 				09AB7FC526C035E900590232 /* DataController-Reminders.swift in Sources */,
+				09C2907D26C81C32006F1AA8 /* SharedItemsView.swift in Sources */,
 				0994D45426A5A491003E2014 /* DataController.swift in Sources */,
 				09AB7F2626AFBBD400590232 /* SelectSomethingView.swift in Sources */,
 				09AB7F2C26AFD17A00590232 /* Award.swift in Sources */,
