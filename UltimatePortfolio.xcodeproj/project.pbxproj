@@ -73,6 +73,7 @@
 		09C2907826C80BD4006F1AA8 /* LoadStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907726C80BD4006F1AA8 /* LoadStates.swift */; };
 		09C2907B26C8167D006F1AA8 /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */; };
 		09C2907D26C81C32006F1AA8 /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */; };
+		09C2907F26C8F276006F1AA8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907E26C8F276006F1AA8 /* SignInView.swift */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -191,6 +192,7 @@
 		09C2907726C80BD4006F1AA8 /* LoadStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStates.swift; sourceTree = "<group>"; };
 		09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
 		09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
+		09C2907E26C8F276006F1AA8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -435,6 +437,7 @@
 				09C2907726C80BD4006F1AA8 /* LoadStates.swift */,
 				09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */,
 				09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */,
+				09C2907E26C8F276006F1AA8 /* SignInView.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -654,6 +657,7 @@
 				0994D45126A5A1CA003E2014 /* Main.xcdatamodeld in Sources */,
 				09AB7F7D26BC559400590232 /* HomeViewModel.swift in Sources */,
 				09AB7FC926C0438B00590232 /* DataController-StoreKit.swift in Sources */,
+				09C2907F26C8F276006F1AA8 /* SignInView.swift in Sources */,
 				09AB7F8126BD5BF000590232 /* UnlockManager.swift in Sources */,
 				09ED86AB26AC57BA003012E2 /* Project-CoreDataHelpers.swift in Sources */,
 				09AB7F3026B1AD1A00590232 /* Color-Additions.swift in Sources */,
