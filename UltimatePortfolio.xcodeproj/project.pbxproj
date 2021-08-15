@@ -74,6 +74,7 @@
 		09C2907B26C8167D006F1AA8 /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */; };
 		09C2907D26C81C32006F1AA8 /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */; };
 		09C2907F26C8F276006F1AA8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2907E26C8F276006F1AA8 /* SignInView.swift */; };
+		09C2908126C90764006F1AA8 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2908026C90764006F1AA8 /* ChatMessage.swift */; };
 		09ED869F26AA7E31003012E2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED869E26AA7E31003012E2 /* CloudKit.framework */; };
 		09ED86A126AC28FB003012E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A026AC28FB003012E2 /* HomeView.swift */; };
 		09ED86A526AC297C003012E2 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED86A426AC297C003012E2 /* ProjectsView.swift */; };
@@ -193,6 +194,7 @@
 		09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
 		09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 		09C2907E26C8F276006F1AA8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		09C2908026C90764006F1AA8 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 		09ED869E26AA7E31003012E2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		09ED86A026AC28FB003012E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09ED86A426AC297C003012E2 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -438,6 +440,7 @@
 				09C2907A26C8167D006F1AA8 /* SharedProjectsView.swift */,
 				09C2907C26C81C32006F1AA8 /* SharedItemsView.swift */,
 				09C2907E26C8F276006F1AA8 /* SignInView.swift */,
+				09C2908026C90764006F1AA8 /* ChatMessage.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -682,6 +685,7 @@
 				09ED86A826AC55E6003012E2 /* Item-CoreDataHelpers.swift in Sources */,
 				09AB7F8426BDB1DA00590232 /* SKProduct-LocalizedPrice.swift in Sources */,
 				09AB7F7B26BC28C100590232 /* ProjectsViewModel.swift in Sources */,
+				09C2908126C90764006F1AA8 /* ChatMessage.swift in Sources */,
 				09AB7F1826AD4A1200590232 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
